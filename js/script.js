@@ -35,5 +35,5 @@ document.addEventListener("DOMContentLoaded", function () {
 $("#data-table").on("click", ".editar-btn", function () {
     const productId = $(this).data("id");
 
-    window.location.href = "../editar.html?id=" + productId;
+    window.location.href = "./editar.html?id=" + productId;
 });
