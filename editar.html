@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EDITAR PRODUCTO </title>
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+</head>
+
+<body>
+    <form id="Editarpr">
+        <input type="hidden" id="producto-id" name="producto-id" value="">
+        <label for="nombre">Nombre:</label>
+
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre">
+        <label for="precio">Precio:</label>
+
+        <input type="text" id="precio" name="precio" placeholder="Ingrese el precio">
+        <label for="descripcion">Descripción:</label>
+
+        <textarea id="descripcion" name="descripcion" placeholder="Ingrese la descripción"></textarea>
+        <input type="submit" value="Guardar Cambios">
+
+    </form>
+    <script src="./js/editar.js"></script>
+</body>
+
+</html>
